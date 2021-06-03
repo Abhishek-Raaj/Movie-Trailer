@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(187, 217, 231);
+}
+.movie-container{
+   display: flex;
+   overflow-x: auto;
+   padding: 7px 7px;
+}
+.images{
+     border: 2px solid grey;
+     margin: 5px;
+     border-radius: 8px;
+     
+}
+.images:hover{
+    transform: translateY(-3px);
+    cursor: pointer;
+    opacity: .8;
+}
+
+section{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+
+}
+.display{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-wrap: wrap;
+
+    
+}
+
+.display p{
+    background: red;
+    display: inline-block;
+    padding: 3px 4px;
+}
+.display p:hover{
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    font-size: 3.5rem;
+}
+#form{
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+#input{
+    width: 80%;
+    border-radius: 6px;
+    height:40px;
+    padding: 5px;
+    font-size: 22px;
+}
+#btn{
+    width: 18%;
+    height: 38px;
+    border-radius: 8px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    background: black;
+    color: white;
+}
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background:red;
+    z-index: 9999;
+    }
+    #overlay{
+        margin-bottom: 10px;
+    }
+    iframe{
+        margin: 10px;
+    }
+
+
+
+/* 
+
+
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
+} */
